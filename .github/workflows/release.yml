@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
       - uses: grafana/plugin-actions/build-plugin@release
         # uncomment to enable plugin sign in
         #with:
