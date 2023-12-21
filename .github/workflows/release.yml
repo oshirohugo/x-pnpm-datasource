@@ -19,3 +19,5 @@ jobs:
         #policy_token: $
         #usage of GRAFANA_API_KEY is deprecated prefer policy_token
         #grafana_token: $
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
